@@ -1,7 +1,7 @@
 {
   "name": "nats-inventory-prototype",
   "version": "1.0.0",
-  "description": "Assignment 1 mini-prototype — NATS message queue (unfamiliar tool). Meridian Pivot, Week 2.",
+  "description": "Real-time inventory synchronization service for Northstar Retail Co. built with NATS messaging.",
   "main": "server.js",
   "type": "module",
   "engines": {
