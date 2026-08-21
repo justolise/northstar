@@ -1,8 +1,8 @@
 /**
  * server.js — NATS Inventory Sync, All-in-One
  *
- * Assignment 1: mini-prototype demonstrating NATS message queue as an
- * unfamiliar tool. This single process:
+ * Real-time inventory sync service demonstrating NATS message queue.
+ * This single process:
  *   1. Spawns the vendored nats-server binary as a child process (the broker)
  *   2. Connects a subscriber in the "inventory-workers" queue group, building
  *      an in-memory stock cache from received messages
@@ -205,8 +205,8 @@ const DASHBOARD_HTML = `<!DOCTYPE html>
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>NATS Inventory Sync — Day 1-2 Prototype</title>
-  <meta name="description" content="Assignment 1 mini-prototype: NATS pub/sub message queue demo for live inventory sync." />
+  <title>NATS Inventory Sync — Northstar Retail Co.</title>
+  <meta name="description" content="NATS pub/sub message queue service for live inventory sync." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
@@ -378,7 +378,7 @@ const DASHBOARD_HTML = `<!DOCTYPE html>
     <div class="logo">📦</div>
     <div>
       <h1>NATS Inventory Sync
-        <span>Assignment 1 — Day 1-2 Solo Mini-Prototype · Meridian Pivot Week 2</span>
+        <span>Northstar Retail Co. · Real-time warehouse dashboard</span>
       </h1>
     </div>
     <div class="status-pill" id="statusPill">
