@@ -1,0 +1,22 @@
+{
+  "name": "nats-inventory-prototype",
+  "version": "1.0.0",
+  "description": "Assignment 1 mini-prototype — NATS message queue (unfamiliar tool). Meridian Pivot, Week 2.",
+  "main": "server.js",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "postinstall": "node download-nats.js",
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["nats", "message-queue", "inventory", "pub-sub"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "nats": "^2.29.3"
+  }
+}
